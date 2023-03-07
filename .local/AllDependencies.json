@@ -19729,9 +19729,9 @@
     "restore": {
       "projectUniqueName": "Facturador_Windows",
       "projectName": "Facturador_Windows",
-      "projectPath": "C:\\Users\\Agustin Bustos\\Desktop\\Facturador Multiusuario_20221202\\Facturador Multiusuario\\.local",
+      "projectPath": "F:\\Proyecto Uipath\\Facturador-Multiusuario\\.local",
       "packagesPath": "C:\\Users\\Agustin Bustos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agustin Bustos\\Desktop\\Facturador Multiusuario_20221202\\Facturador Multiusuario\\.local"
+      "outputPath": "F:\\Proyecto Uipath\\Facturador-Multiusuario\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
