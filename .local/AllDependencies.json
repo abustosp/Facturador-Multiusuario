@@ -19723,7 +19723,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Agustin Bustos\\.nuget\\packages\\": {}
+    "C:\\Users\\Agustin Bustos\\.nuget\\packages\\": {},
+    "C:\\Users\\Agustin Bustos\\AppData\\Local\\UiPath\\NugetFallbackFolder": {}
   },
   "project": {
     "restore": {
@@ -19731,7 +19732,10 @@
       "projectName": "Facturador_Windows",
       "projectPath": "F:\\Proyecto Uipath\\Facturador-Multiusuario\\.local",
       "packagesPath": "C:\\Users\\Agustin Bustos\\.nuget\\packages\\",
-      "outputPath": "F:\\Proyecto Uipath\\Facturador-Multiusuario\\.local"
+      "outputPath": "F:\\Proyecto Uipath\\Facturador-Multiusuario\\.local",
+      "fallbackFolders": [
+        "C:\\Users\\Agustin Bustos\\AppData\\Local\\UiPath\\NugetFallbackFolder"
+      ]
     },
     "frameworks": {
       "net6.0-windows7.0": {
