@@ -63,7 +63,7 @@ Los pasos para ejecutar el bot son los siguientes:
 
 - Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: `C:\Users\Agustin Bustos\Desktop\TEST\`)
   
-  - Los de la ventana emergente inicial van sin el último backslash (ejemplo: `C:\Users\Agustin Bustos\Desktop\Test`) y es importante que esa ubicación exista. Esta ubicación se utiliza solamente cuando la direccion de descarga del Excel esta vacío
+- En el excel de Facturación es recomendable Cargar en la columna de 'Nombre de Archivo' con alguna fórmula contatenando ciertos datos de la factura por ejemplo `"CUIT"&" - "&"Denominación"&" - "&"Descripción del servicio"` (esto se debe porque algunas PC tienen un error al momento de obtener el nombre original del archivo)
 
 ---
 
