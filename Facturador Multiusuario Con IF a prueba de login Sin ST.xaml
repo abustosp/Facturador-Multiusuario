@@ -1408,7 +1408,7 @@
                                                       </ui:Target>
                                                     </ui:Click.Target>
                                                   </ui:Click>
-                                                  <ui:WriteCell Cell="[&quot;AB&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Escribir OK" sap:VirtualizedContainerService.HintSize="410,116" sap2010:WorkflowViewState.IdRef="WriteCell_101" SheetName="Factura" Text="OK" WorkbookPath="[ArchivoBaseFacturas]" />
+                                                  <ui:WriteCell Cell="[&quot;AR&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Escribir OK" sap:VirtualizedContainerService.HintSize="410,116" sap2010:WorkflowViewState.IdRef="WriteCell_101" SheetName="Factura" Text="OK" WorkbookPath="[ArchivoBaseFacturas]" />
                                                 </Sequence>
                                               </Sequence>
                                             </ActivityAction>
@@ -1430,8 +1430,8 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:BrowserScope>
-                                <ui:ClearDataTable DataTable="[BaseFacturas]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="664,80" sap2010:WorkflowViewState.IdRef="ClearDataTable_2" />
-                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Cerrar pestaña RCEL" sap:VirtualizedContainerService.HintSize="664,153" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="w" KeyModifiers="Ctrl">
+                                <ui:ClearDataTable DataTable="[BaseFacturas]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="780,80" sap2010:WorkflowViewState.IdRef="ClearDataTable_2" />
+                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Cerrar pestaña RCEL" sap:VirtualizedContainerService.HintSize="780,153" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="w" KeyModifiers="Ctrl">
                                   <ui:SendHotkey.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="59163eec-3faf-4fd7-992e-36d3fd28e89b" InformativeScreenshot="bb2107f62bb64cf6611428ffa50d02e5" Selector="&lt;html app='firefox.exe' title='RCEL' /&gt;">
                                       <ui:Target.TimeoutMS>
@@ -1443,7 +1443,7 @@
                                     </ui:Target>
                                   </ui:SendHotkey.Target>
                                 </ui:SendHotkey>
-                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser" sap:VirtualizedContainerService.HintSize="642,512" sap2010:WorkflowViewState.IdRef="BrowserScope_6" InformativeScreenshot="cb4e29c785dd6c0a78adb6be515e6b01" Selector="&lt;html app='firefox.exe' title='*Clave Fiscal*' /&gt;">
+                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser" sap:VirtualizedContainerService.HintSize="780,512" sap2010:WorkflowViewState.IdRef="BrowserScope_6" InformativeScreenshot="cb4e29c785dd6c0a78adb6be515e6b01" Selector="&lt;html app='firefox.exe' title='*Clave Fiscal*' /&gt;">
                                   <ui:BrowserScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -1494,7 +1494,7 @@
                                   </ui:BrowserScope.Body>
                                 </ui:BrowserScope>
                               </Sequence>
-                              <ui:WriteCell Cell="[&quot;K&quot; + row(&quot;Fila Clientes&quot;).ToString]" DisplayName="Control Cliente" sap:VirtualizedContainerService.HintSize="704,116" sap2010:WorkflowViewState.IdRef="WriteCell_102" SheetName="Listado" Text="OK" WorkbookPath="Listado Clientes.xlsx" />
+                              <ui:WriteCell Cell="[&quot;K&quot; + row(&quot;Fila Clientes&quot;).ToString]" DisplayName="Control Cliente" sap:VirtualizedContainerService.HintSize="842,116" sap2010:WorkflowViewState.IdRef="WriteCell_102" SheetName="Listado" Text="OK" WorkbookPath="Listado Clientes.xlsx" />
                             </Sequence>
                           </If.Then>
                           <If.Else>

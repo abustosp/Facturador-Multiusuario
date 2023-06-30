@@ -1408,7 +1408,7 @@
                                                       </ui:Target>
                                                     </ui:Click.Target>
                                                   </ui:Click>
-                                                  <ui:WriteCell Cell="[&quot;AB&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Escribir OK" sap:VirtualizedContainerService.HintSize="410,116" sap2010:WorkflowViewState.IdRef="WriteCell_101" SheetName="Factura" Text="OK" WorkbookPath="[ArchivoBaseFacturas]" />
+                                                  <ui:WriteCell Cell="[&quot;AR&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Escribir OK" sap:VirtualizedContainerService.HintSize="410,116" sap2010:WorkflowViewState.IdRef="WriteCell_101" SheetName="Factura" Text="OK" WorkbookPath="[ArchivoBaseFacturas]" />
                                                 </Sequence>
                                               </Sequence>
                                             </ActivityAction>
