@@ -1,5 +1,6 @@
 {
   "name": "Facturador_Windows",
+  "projectId": "4dc74b53-ceff-4fb8-a75c-a0688bc9f6fe",
   "description": "Facturador en Comprobantes en línea",
   "main": "Facturador 5.0.xaml",
   "dependencies": {
