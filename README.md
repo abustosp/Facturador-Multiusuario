@@ -47,8 +47,10 @@ Los pasos para ejecutar el bot son los siguientes:
 5. Una vez Descargados los archivos se debe:
    
    1. Abrir el project.json o archivo .xaml
+
+   2. Seleccionar el sub-bot adecuado.
    
-   2. Ejecutarlo (hacer click en el boton de "Play").
+   3. Ejecutarlo (hacer click en el boton de "Play").
 
 
 ---
@@ -71,8 +73,11 @@ Los pasos para ejecutar el bot son los siguientes:
 
     ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Descarga-de-Archivos.png "Configuración de descarga")
 
+- Si el Bot saltea los contribuyentes es probable que sea deba a que la pc donde se corre el bot tiene poca memoria RAM y/o un procesador con capacidades limitadas o la pagina de AFIP funciona con lentitd.
 
-- Para Ejecutar el BOT se debe completar la información de los Excels (hay que tener en cuenta el formato regional de Excel, en algunos casos hay que reemplazar en todas las fórmulas los AAAA por YYYY).
+  - Para solucionarlo se debe cambiar el target de la actividad "Existencia de Ver Todos" y cambiar 3000 milisegundos por un valor mayor (depende de la velocidad de la PC y de la conexión a internet).
+
+- Para Ejecutar el BOT se debe completar la información de los Excels:
 
 	 - Se deben completar como mínimo 2 Excels: El maestro que contiene las claves y las ubicaciones de los "Excels base" y los "Excels Base" que contienen la información de los comprobantes a emitir.
 
