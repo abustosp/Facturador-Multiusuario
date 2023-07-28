@@ -5,8 +5,7 @@
   "main": "Facturador Multiusuario Con IF a prueba de login.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "2.11.4",
-    "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.System.Activities": "22.4.1",
     "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
