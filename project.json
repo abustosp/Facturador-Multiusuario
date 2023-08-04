@@ -1,12 +1,13 @@
 {
-  "name": "Facturador_Windows",
+  "name": "Facturador-Multiusuario",
   "projectId": "4dc74b53-ceff-4fb8-a75c-a0688bc9f6fe",
   "description": "Facturador en Comprobantes en línea",
   "main": "Facturador Multiusuario Con IF a prueba de login.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "2.11.4",
-    "UiPath.System.Activities": "22.4.1",
-    "UiPath.UIAutomation.Activities": "22.4.5"
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -71,8 +72,14 @@
       "output": []
     },
     {
+      "filePath": "Facturador Multiusuario Con IF a prueba de login Sin ST.xaml",
+      "uniqueId": "c3dfb9fd-5566-44d1-8c61-6e42501c7640",
+      "input": [],
+      "output": []
+    },
+    {
       "filePath": "Facturador Multiusuario Con IF a prueba de login.xaml",
-      "uniqueId": "0a9b8619-1f9d-4b37-a60c-a2c8109b2216",
+      "uniqueId": "f7da90aa-3712-411d-b2fb-8defff0de6ec",
       "input": [],
       "output": []
     }
