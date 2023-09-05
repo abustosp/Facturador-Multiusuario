@@ -487,7 +487,7 @@
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <Sequence DisplayName="Cargar datos iniciales" sap:VirtualizedContainerService.HintSize="635,4855" sap2010:WorkflowViewState.IdRef="Sequence_280">
+                                                      <Sequence DisplayName="Cargar datos iniciales" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_280">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1434,7 +1434,7 @@
                                                             </scg:List>
                                                           </ui:SelectItem.Items>
                                                           <ui:SelectItem.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f45c8ab1-1391-431c-bcd7-92592ccd812a" InformativeScreenshot="b9935686c478fda9d28bdda13092cf86" Selector="[String.Format(&quot;&lt;webctrl parentid='otros_datos*' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='SELECT' /&gt;&quot;, FilaRCEL)]">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f45c8ab1-1391-431c-bcd7-92592ccd812a" InformativeScreenshot="b9935686c478fda9d28bdda13092cf86" Selector="&lt;webctrl parentid='otros_datos*' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
