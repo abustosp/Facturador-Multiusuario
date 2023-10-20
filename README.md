@@ -1,8 +1,8 @@
-# BOT Facturador E Multiusuario
+# BOT Facturador Multiusuario
 
-Bot de generación de Comprobantes E (de Exportación) de manera masiva del servicio Comprobantes en Línea de AFIP de manera masiva de múltiples usuarios. 
+Bot de generación de Comprobantes de manera masiva del servicio Comprobantes en Línea de AFIP de manera masiva de múltiples usuarios. 
 
-Esta el la versión Multiusuario: Inicia ni cierra sesión de distintos contribuyentes y realiza las comprobantes a emitir de cada contribuyente.
+Esta el la versión Multiusuario: Inicia y cierra sesión de distintos contribuyentes y realiza las comprobantes a emitir de cada contribuyente.
 
 ---
 
