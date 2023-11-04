@@ -87,6 +87,8 @@ Los pasos para ejecutar el bot son los siguientes:
   
 - En el excel de Facturación es recomendable Cargar en la columna de 'Nombre de Archivo' con alguna fórmula contatenando ciertos datos de la factura por ejemplo `"CUIT"&" - "&"Denominación"&" - "&"Descripción del servicio"` (esto se debe porque algunas PC tienen un error al momento de obtener el nombre original del archivo)
 
+- En la Columna 'Nombre en RCEL' va el nombre tal cual aparece en comprobantes en línea (Respetanndo mayúsculas, espacios y caracteres especiales)
+
 ---
 
 ## Aclaraciones
