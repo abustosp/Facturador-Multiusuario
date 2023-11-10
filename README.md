@@ -67,11 +67,11 @@ Los pasos para ejecutar el bot son los siguientes:
 
     2. La descarga de archivos debe estar configurada para que se pregunte donde guardarlos
 
-    ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Ubicacion-de-descargas.png?raw=true "Configuración de descarga")
+    ![Configuración de descarga](https://raw.githubusercontent.com/abustosp/Configuraciones/master/Firefox/Ubicacion-de-descargas.png "Configuración de descarga")
 
     3. La descarga de archivos debe estar configurada para que no se pregunte si se quiere guardar el archivo (si el archivo aparece en la lista tiene que estar configurado con la opción de "Guardar Archivo" por ejemplo en el caso de los PDF y XLSX o planillas de cálculo)
 
-    ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Descarga-de-Archivos.png?raw=true "Configuración de descarga")
+    ![Configuración de descarga](https://raw.githubusercontent.com/abustosp/Configuraciones/master/Firefox/Descarga-de-Archivos.png "Configuración de descarga")
 
 - Si el Bot saltea los contribuyentes es probable que sea deba a que la pc donde se corre el bot tiene poca memoria RAM y/o un procesador con capacidades limitadas o la pagina de AFIP funciona con lentitd.
 
